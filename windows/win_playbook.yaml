@@ -1,0 +1,5 @@
+ - hosts: win
+   vars_files: 
+     - roles/sparknsh.patching_windows/vars/main.yml
+   roles:
+     - { role: sparknsh.patching_windows }
